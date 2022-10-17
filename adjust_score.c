@@ -66,6 +66,8 @@ void score_record_init(struct score_record *rec, const char *name, int score) {
   * \return 1 if the score was successfully changed, 0 if not.
   */
 int adjust_score(uid_t uid, const char * player_name, int score_to_add, char **message) {
+  // 若您有关于此作业的任何需求，本人主页, 可添加vx：codingtutor 或者qq：122929048
+
   return 0;
 }
 
@@ -82,6 +84,8 @@ int adjust_score(uid_t uid, const char * player_name, int score_to_add, char **m
   * \return the size of the file described by `fd`.
   */
 size_t file_size(const char * filename, int fd) {
+  // 若您有关于此作业的任何需求，本人主页, 可添加vx：codingtutor 或者qq：122929048
+
   return -1;
 }
 
@@ -97,6 +101,8 @@ size_t file_size(const char * filename, int fd) {
   * \return a parsed \ref score_record.
   */
 struct score_record parse_record(char rec_buf[REC_SIZE]) {
+  // 若您有关于此作业的任何需求，本人主页, 可添加vx：codingtutor 或者qq：122929048
+
   struct score_record rec;
   // Note that writing the `rec_buf` parameter as `rec_buf[REC_SIZE]`
   // serves only as documentation of the intended use of the
@@ -126,6 +132,8 @@ struct score_record parse_record(char rec_buf[REC_SIZE]) {
   * \param rec pointer to a player's score record.
   */
 void store_record(char buf[REC_SIZE], const struct score_record *rec) {
+  // 若您有关于此作业的任何需求，本人主页, 可添加vx：codingtutor 或者qq：122929048
+
 }
 
 /** search within the open scores file with file descriptor
@@ -142,6 +150,8 @@ void store_record(char buf[REC_SIZE], const struct score_record *rec) {
   *   or -1 if no no such record exists.
   */
 off_t find_record(const char * filename, int fd, const char * player_name) {
+  // 若您有关于此作业的任何需求，本人主页, 可添加vx：codingtutor 或者qq：122929048
+
   return -1;
 }
 
@@ -163,4 +173,6 @@ off_t find_record(const char * filename, int fd, const char * player_name) {
   * \param score_to_add amount by which to increment the score.
   */
 void adjust_score_file(const char * filename, int fd, const char * player_name, int score_to_add) {
+  // 若您有关于此作业的任何需求，本人主页, 可添加vx：codingtutor 或者qq：122929048
+
 }
